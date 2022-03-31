@@ -1,0 +1,99 @@
+*{
+    margin-top: 1.7rem;
+}
+
+body{
+    background-color: rgb(32, 30, 30);
+}
+
+.section{
+    width: 50%;
+    height: 74%;
+    max-width: 500px;
+    min-height: 650px;
+    margin: auto;
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #24232b;
+    /* display:flex; */
+    /* flex-direction: column; */
+}
+h1{
+    margin-top:0px;
+    color: white;
+}
+p{
+    margin-top: 2rem;
+    font-size: 16px;
+    color: white;
+}
+body{
+    margin: 2px;
+    display: block;
+}
+label{
+    font-size: 1.4rem;
+    padding: 50px;
+    color: lightgreen;
+    /* margin: 0.5rem; */
+}
+
+.bill{
+    margin-top: 40px;
+}
+.cash{
+    margin-top:20px;
+}
+
+input{
+width: 100%;
+padding: 1rem;
+height: 47px;
+display: block;
+margin: 0.3rem;
+}
+
+#errorMsg{
+    padding-top: 1rem;
+    color:white;
+}
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 0.6rem 1.3rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1.3rem auto 0;
+    background-color: lightblue;
+    color: #262235;
+    font-weight: bold;
+}
+
+#output{
+    margin: 1.2rem 0;
+}
+#output table,th,td{
+    padding: 0.2;
+    border: 1px solid white;
+    color: white;
+    border-collapse: collapse;
+    background-color: #24232b;
+}
+
+/* th,td{
+     word-wrap: break-word; 
+} */
+table{
+    width: 100%;
+    table-layout:fixed;
+}
+.no-of-notes{
+    background-color:#24232b;
+    font-weight: normal;
+}
+
